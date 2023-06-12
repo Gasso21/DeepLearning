@@ -1,6 +1,5 @@
-# DeepLearning
 ## Computer Vision
-- Classification
+- **Classification**
     - MLP
     - CNN
     - AlexNet
@@ -11,18 +10,19 @@
     - DenseNet
     - Y-Net
     - ConvNeXt
-- Generative Model
-    - AutoEncoder, Denoise AutoEncoder
+- **Generative Model**
+    - AutoEncoder
+    - Denoise AutoEncoder
     - CGAN
     - DCGAN
     - LSGAN
     - WGAN
-- Learning with noisy Labels
+- **Learning with noisy Labels**
     - DivideMix
 ## Natural Language Processing
 - RNN
 - LSTM
-- Transformers
+- **Transformers**
     - Transformer
     - GPT
     - BERT
