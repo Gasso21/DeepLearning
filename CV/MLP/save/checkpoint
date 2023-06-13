@@ -1,0 +1,2 @@
+model_checkpoint_path: "seq_model.skpt"
+all_model_checkpoint_paths: "seq_model.skpt"
