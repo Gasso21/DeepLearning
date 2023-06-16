@@ -1,0 +1,11 @@
+## Image Augmentation
+- **Adding Noise**
+- **Cropping**
+- **Flipping**
+- **Scaling**
+- **Brightness**
+- **Color Augmentation**
+- **Saturation**
+- **Contrast**
+- **Translation**
+- **Rotation**
