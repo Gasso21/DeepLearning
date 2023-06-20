@@ -1,6 +1,6 @@
 # Classic CNNs
 ## LeNet
-Input Shape: 28x28x1(MNIST)
+Input Shape: 28x28x1(MNIST)  
 **Convolution Layers**
 1. ConV_1 (5x5, s=1, activation='tanh', filters=  6, padding='same')
 2. Pooling_2 (f=2, s=2, padding='valid')
@@ -16,10 +16,9 @@ Input Shape: 28x28x1(MNIST)
 
 7. Dense(units=10, activation='softmax')
 
-- **AlexNet**
-### Input Shape: 227x227x3(ImageNet)
+## AlexNet
+Input Shape: 227x227x3(ImageNet)  
 **Convolution Layers**
-
 1. ConV (11x11, s=4, activation='relu', filters=96, padding='valid')
 2. MaxPool (f=3, s=2)
 3. BatchNorm
@@ -46,6 +45,44 @@ Input Shape: 28x28x1(MNIST)
 
 19. Dense(units=1000, activation='softmax')
 
-- **VGG16**
-- **GoogleNet**
-- **ResNet**
+## VGG16
+Input Shape: 227x227x3(ImageNet)  
+**Convolution Layers**
+
+- ConV (k=3, s=1, f=64, a='relu', p='same')
+- ConV (k=3, s=1, f=64, a='relu', p='same')
+- MaxPool (p=2, s=2)
+
+- ConV (k=3, s=1, f=128, a='relu', p='same')
+- ConV (k=3, s=1, f=128, a='relu', p='same')
+- MaxPool (p=2, s=2)
+
+- ConV (k=3, s=1, f=256, a='relu', p='same')
+- ConV (k=3, s=1, f=256, a='relu', p='same')
+- ConV (k=3, s=1, f=256, a='relu', p='same')
+- MaxPool (p=2, s=2)
+
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- MaxPool (p=2, s=2)
+
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- ConV (k=3, s=1, f=512, a='relu', p='same')
+- MaxPool (p=2, s=2)
+
+**Fully Connected Layers**
+
+- Flatten
+- Dense(units=4096, activation='relu')
+- Dropout(0.5)
+- Dense(units=4096, activation='relu')
+- Dropout(0.5)
+
+**Outputs**
+
+10. Dense(units=1000, activation='softmax')
+
+## GoogleNet
+## ResNet
