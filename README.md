@@ -20,7 +20,7 @@
 - LSGAN
 - WGAN
 
-### Learning with noisy Labels**
+### Learning with noisy Labels
 - DivideMix
 
 ## Natural Language Processing
